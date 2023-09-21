@@ -19,7 +19,7 @@ public class UseOfManage {
 		driver.manage().window().maximize();
 		driver.manage().window().minimize();
 		driver.manage().window().fullscreen();
-		driver.close();
+		driver.quit();
 		
 		
 	}

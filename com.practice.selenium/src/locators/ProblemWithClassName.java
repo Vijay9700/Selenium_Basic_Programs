@@ -1,4 +1,4 @@
-package locators
+package locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ProblemWithClassName {
 	//=============>SPACE
-	//=============>DOUPLICATE
+	 //=============>DOUPLICATE
 	public  void main(String[] args) throws InterruptedException {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
@@ -27,5 +27,7 @@ public class ProblemWithClassName {
 		Thread.sleep(2000);
 		driver.quit();
 	}
-
 }
+	
+	
+	
