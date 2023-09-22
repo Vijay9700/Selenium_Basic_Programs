@@ -16,6 +16,9 @@ public class OperationsOnHiddenElements {
 		//identify hiddenelement--->gender(optional)
 		WebElement hiddenElement = driver.findElement(By.name("custom_gender"));
 		
+//		//try to use sendkeys
+//		hiddenElement.sendKeys("aleans");//--->ElementNotInteractableException
+		
 		//JSE
 		JavascriptExecutor js=(JavascriptExecutor) driver;
 		js.executeScript("arguments[0].value='aleans'", hiddenElement);
