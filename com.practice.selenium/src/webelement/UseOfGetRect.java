@@ -19,6 +19,7 @@ public class UseOfGetRect {
 		Thread.sleep(3000);
 		WebElement text = driver.findElement(By.xpath("//div[contains(text(),'Sign Up')]"));
 		Rectangle poss = text.getRect();
+		//System.out.println(poss.getDimension());
 		System.out.println(poss.getX());
 		System.out.println(poss.getY());
 		driver.quit();
