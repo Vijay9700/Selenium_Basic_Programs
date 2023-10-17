@@ -17,8 +17,6 @@ public class Handling_Svg_Tag {
 		//fetch parent id
 		String parentWid = driver.getWindowHandle();
 		System.out.println(parentWid);
-		//click on a product
-		//driver.findElement(By.xpath("//img[@alt='Skinny Men Blue Jeans']")).click();
 		//click on compare icon
 		driver.findElement(By.xpath("//*[name()='svg' and @class='MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-2c7buj']")).click();
 		//fetching child ids
